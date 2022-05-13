@@ -73,12 +73,15 @@ h3 {
 
 /* Profile
 ------------------------------------*/
+
 header {
   background: #2F3061;
   color: #F7FFF7;
   text-align: center;
 }
-
+ .profile{
+   border-radius: 50%;;
+ }
 
 /* Projects
 ------------------------------------*/
