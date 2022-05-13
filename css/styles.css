@@ -8,23 +8,23 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - blue light
 */
 
-
 /* Global styles
 ------------------------------------*/
 html {
   box-sizing: border-box;
-
+  /* min-width: 350px; */
 }
-*, *:before, *:after{
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-
 }
 
 body {
   color: #343434;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -32,7 +32,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #ffe66d;
 }
 a:hover {
   text-decoration: none;
@@ -44,8 +44,9 @@ h1 {
 h2 {
   font-size: 45px;
 }
-h1, h2 {
-  font-family: 'Caveat', cursive;
+h1,
+h2 {
+  font-family: "Caveat", cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -65,122 +66,63 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 1px dashed #F7FFF7;
+  border-bottom: 1px dashed #f7fff7;
   padding: 25px 0;
 }
 .divider > section:last-of-type {
   border-bottom: none;
 }
 
-  /* nav begin */
-  
-  nav {
-    position: fixed;
-    background: white;
-    color:black;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    height: 9vh;
-    justify-content: center;
-  }
-  
-  nav h1 {
-    color: #6b8897;
-    font-size: 1.5rem;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #7693a2;
-  }
-  
-  #login {
-    color: #32c5ff;
-    border: 2px solid #32c5ff;
-    border-radius: 8px;
-    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.24);
-    padding: 14px 32px;
-  }
-  
-  .desktopnav {
-    height: 9vh;
-    width: 92vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navlinks ul {
-    width: 55vw;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navlinks li {
-    list-style: none;
-  }
-  
-  .navlinks a {
-    text-decoration: none;
-  }
-  
-  .burger {
+/* nav begin */
+
+nav {
+  position: fixed;
+  background: white;
+  color: black;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 9vh;
+  justify-content: center;
+}
+
+nav h1 {
+  color: #6b8897;
+  font-size: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7693a2;
+}
+
+.desktopnav {
+  height: 9vh;
+  width: 92vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks ul {
+  width: 55vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlinks li {
+  list-style: none;
+}
+
+.navlinks a {
+  text-decoration: none;
+}
+
+/* .burger {
     display: none;
-  }
-  
-  
-  /* .product-toggle {
-    visibility: hidden;
-    position: absolute;
-    top: 9vh;
-    z-index: 5;
-  }
-  
-  .triangle {
-    margin-left: 3%;
-    height: 0;
-    width: 0;
-    border-bottom: 10px solid white;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-  }
-  
-  .products {
-    background: white;
-    margin-left: -5%;
-    border-radius: 4px;
-  }
-  
-  .products tr {
-    border-bottom: 1px solid #D8D8D8;
-  }
-  
-  .products h3 {
-    color: #7A44FF;
-  }
-  
-  .products p {
-    width: 28vw;
-    color: #6D7278;
-    line-height: 2rem;
-  }
-  
-  #prod-content {
-    padding: 24px 0px;
-  }
-  
-  #prodimg {
-    padding: 24px 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-   */
-  
-  
-  
-  /* nav end */
+  }   */
+
+/* nav end */
 
 /* Profile
 ------------------------------------*/
@@ -188,14 +130,14 @@ h3 {
 header {
   /* background: #2F3061; */
   background: rgb(18, 45, 3);
-  color: #F7FFF7;
+  color: #f7fff7;
   text-align: center;
 }
 
- .profile{
-   border-radius: 50%;;
-   margin-top: 20px;
- }
+.profile {
+  border-radius: 50%;
+  margin-top: 20px;
+}
 
 /* Projects
 ------------------------------------*/
@@ -207,8 +149,8 @@ header {
   color: pink;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #f7fff7;
+  background: #2f3061;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
@@ -229,7 +171,7 @@ header {
 }
 
 /* Skills */
-.skills{
+.skills {
   background: rgb(55, 76, 81);
   color: rgb(245, 229, 201);
 }
@@ -247,7 +189,6 @@ header {
   column-gap: 20px;
 }
 
-
 /* Education
 ------------------------------------*/
 .education {
@@ -255,19 +196,17 @@ header {
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
-  color: #2F3061;
-
+  color: #2f3061;
 }
 .education p {
   width: 60%;
 }
 
-
 /* Contact Info
 ------------------------------------*/
 footer {
   background: #343434;
-  color: #F7FFF7;
+  color: #f7fff7;
   text-align: center;
 }
 .contact-list {
@@ -280,3 +219,51 @@ footer {
   padding: 15px;
   display: inline-block;
 }
+
+/* Responsive
+---------------------------------------*/
+
+/*  */
+ 
+ @media screen and (max-width:1200px) {
+  .desktopnav {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  br {
+    display: none;
+}
+   h1{
+     font-size: 75px;
+     line-height: 0.9;
+     margin-bottom: 20px;
+   }
+ 
+   h2{
+     line-height: 1;
+   }
+ 
+   .contact-list a{
+     padding: 5px;
+   }
+ 
+   .job-item{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     column-gap: 20px;
+   }
+   
+   .profile{
+     border-radius: 50%;
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+   }
+ 
+ }
+
+
+
+
